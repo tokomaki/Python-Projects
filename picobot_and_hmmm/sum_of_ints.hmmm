@@ -1,0 +1,32 @@
+# Reads a number n and prints the sum 1 + 2 + 3 + ... + (n - 1) + n.
+0 read r1
+
+# Set r2 = 0
+1 setn r2 0
+
+# Calls function that calculates the sum 1 + 2 + 3 + ... + (n - 1) + n.
+2 calln r14 5
+
+# Write r2
+3 write r2
+
+# Halt
+4 halt
+
+
+# Function that calculates the sum 1 + 2 + 3 + ... + (n - 1) + n.
+
+# [A] If r1 > 0, jump to line 7 
+5 jgtzn r1 7
+
+# If r1 is not > 0, return to caller
+6 jumpr r14
+
+# Add r1 to r2
+7 add r2 r1 r2 
+
+# Decrement r1 by 1
+8 addn r1 -1
+
+# Jump back to [A]
+9 jumpn 5

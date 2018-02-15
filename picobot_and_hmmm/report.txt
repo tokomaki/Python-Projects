@@ -1,0 +1,60 @@
+1. Hours to complete the project: 12 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (PicoBot: Empty Room Coverage): I watched the screencast and used
+   the advice of moving the picobot to one corner. I moved the picobot to the 
+   top-right corner and implemented the code used in the original up-and-down,
+   right-to-left picobot program.
+
+   Problem 2 (Squared Distance): When I did this assignment, I followed the 
+   concepts presented in the screencast and converted it into code. 
+   I didn't have too many problems doing this part of the project. 
+   To help keep track, I wrote my comments before writing the code that 
+   corresponded with each comment.
+
+   Problem 3 (Sum of Ints): Once again, I followed the idea shown in the 
+   screencast and utilized the HMMM powerpoint whenever I needed code reference.
+   All I had to keep in mind was to place the jump of the 'yes' condition after
+   the 'no' condition when seeing if r1 was > 0 or not.
+
+   Problem 4 (Primality Testing): Like the previous HMMM programs,I followed the
+   screencast and tried to code it in an efficient and readable way. I did 
+   encounter some issues when writing this program. The order of the 'yes' and
+   'no' conditions was throwing me off. To debug, I went to the online simulator
+   and re-wrote the program without comments in the way and thought about how 
+   the each input would be manipulated as it passed through the program. I then
+   went back to the hmmm file and rewrote my code and fixed the line numbers.
+
+   Problem 5 (Euclid's Algorithm, Iterative Approach): To get this going,
+   I utilized the screencast and succeeded with only minor issues. My only issue
+   was I accidentally used setn instead of copy, but as soon as I looked back
+   onto the hmmm powerpoint and realized my mistake, I managed to fix the issue.
+
+   Problem 6 (Euclid's Algorithm, Recursive Approach): When writing the recursive
+   approach of Euclid's Algorithm, I referred to the screencast and only had minor
+   problems during the process. My only problem was confusing the order of the
+   registers when using the storer and loadr functions.
+ 
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   All in all, I enjoyed doing this project. It was fun to figure out the picobot
+   and hmmm programs here. The screencast was very helpful and explained the
+   concepts in a clear and understandable manner. I have some coding experience
+   with Java from my senior year of high school and python from self studying
+   over the summer, so I have been exposed to algorithms and certain ideas like
+   iteration and recursion. But, by doing this project, I feel my previous
+   knowledge has definitely been enhanced and just working hands on with code is 
+   a great experience. I've never used a low-level programming language like HMMM
+   before, so I thought it was really cool just to use it.

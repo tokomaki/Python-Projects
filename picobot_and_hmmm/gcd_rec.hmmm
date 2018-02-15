@@ -1,0 +1,55 @@
+# Reads numbers x and y and prints their GCD.
+
+# Read x into r1
+0 read r1
+
+# Read y into r2
+1 read r2
+
+# Set r15 as Stack Pointer to 100
+2 setn r15 100
+
+# Call recursive GCD function
+3 calln r14 6
+
+# Write r3
+4 write r3
+
+# Halt
+5 halt
+
+# Function that calculates the GCD of two numbers x and y recursively  
+# using Euclid's algorithm.
+
+# [A] Checks if r2 is = 0 and jumps to line 15
+6 jeqzn r2 15
+
+# [No] Increment r15 by 1
+7 addn r15 1
+
+# Store r14 at r15
+8 storer r14 r15
+
+# Assign r1 to r4 to hold r1's original value
+9 copy r4 r1
+
+# Assign r2 to r1
+10 copy r1 r2
+
+# Calculate remainder of r4 / r2 into r2
+11 mod r2 r4 r2
+
+# Recursive call to [A]
+12 jumpn 6
+
+# Load r15 value into r14
+13 loadr r14 r15
+
+# Return to caller
+14 jumpr r14
+
+# Assign r1 to r3
+15 copy r3 r1
+
+# Return to caller
+16 jumpr r14

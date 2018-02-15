@@ -1,0 +1,60 @@
+# Read a number n and print 1 if it is prime and 0 otherwise.
+
+# Read a number n into r1
+0 read r1
+
+# Set i (r3) = 2
+1 setn r3 2
+
+# Call function that tests in n is prime or not
+2 calln r14 5
+
+# write r2
+3 write r2
+
+# halt
+4 halt
+
+
+# Function that tests if n is prime or not.
+
+# [A] Calculates i^2 into r4
+5 mul r4 r3 r3
+
+# Calculates i^2 - n into r5
+6 sub r5 r4 r1
+
+# Lines 7 & 8 check if (i^2 - n) is < or = 0 and jump to line 11 if true
+7 jltzn r5 11
+
+8 jeqzn r5 11
+
+# If (i^2 - n) is != 0, assign 1 to r2 and return to caller
+9 setn r2 1
+
+# Return to caller
+10 jumpr r14
+
+
+# ([A] is true) The following lines test if n is divisible by i.
+
+# Computes remainder division of n / i
+11 mod r6 r1 r3
+
+# If remainder = 0, jump to line 14 (n is divisible by i)
+12 jeqzn r6 14
+
+# If remainder != 0, jump to line 16 (n is not divisible by i)
+13 jnezn r6 16
+
+# Assign 0 to r2 to indicate r1 is not prime
+14 setn r2 0
+
+# Return to caller
+15 jumpr r14
+
+# Increment r3 by 1
+16 addn r3 1
+
+# Jump back to [A]
+17 jumpn 5

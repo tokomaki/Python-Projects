@@ -1,0 +1,60 @@
+1. Hours to complete the project: 18 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Calculating Edit Distance Using Dynamic Programming): In this 
+   problem, I utilized the screencast and understood the idea behind what the
+   program was supposed to do. I did encounter some issues when going about
+   doing this. He initializing the base case row and column, I initialized
+   them using a nested for loop. However, when I saw my professor during his
+   office hour, I learned that they should have been initialized using
+   separate for loops rather than using nested for loops, and I understood
+   why. Another issue, I encountered was writing the parameters of the nested
+   for loops when computing the rest of opt. I was reminded about my professor
+   about how the starting point is inclusive and the end point is not, so I 
+   adjusted for that, and also made the step negative since the for loop had
+   to go backwards in order to fill in the rest of the matrix. Finally, one
+   more problem I had was with the printing out of the matrix. After a quick
+   logical thought, I realized that I had to set j equal to N when writing it
+   out with a newline and without the newline otherwise.
+
+   Problem 2 (Recovering the Alignment): Once again, I watched the screencast
+   and understood what the program was supposed to do. I followed the comments
+   and tried to put the ideas into code. Initially, I was stuck on how I would
+   go about getting the matrix written from the edit_distance.py program. I 
+   was thinking of using nested for loops and confirmed that this would work
+   when I saw it in class. However, in class, I also learned that there is a
+   more efficient way of doing so in one line using stdarray.readInt2D(), so I
+   used it. Then, in the part of the program where I had to recover and write
+   an optimal alignment, I thought for loops would be necessary, but found 
+   that a while loop would do the trick. Even though it passed both pep8 and
+   run_tests.py, when I passed the endgaps7.txt data file, it didn't quite
+   produce the desired output, so I played around the code and realized that a
+   conditional at the end outside of the while loop would fix the issue.
+ 
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Swaminathan Iyer   Professor    Pointed out code problems and talked me
+                                   into finding the solution.
+
+   Kyler Mikulski     SI leader    Went over important concepts and ideas
+                                   during SI session.
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   All in all, I felt like this has been the most challenging project out of
+   the projects so far, but I'm okay with this and understand that it's part
+   of the process. I got to work with 2D arrays and practice my skills with 
+   them. I learned a lot from the project and feel like my understanding has
+   been reinforced. I thought it was really cool to work with gene sequences
+   and manipulate them into their most efficient line-up to determine how
+   closely related they are to each other. I look forward to whatever comes
+   ahead and would like to conclude by saying that it was very rewarding to
+   complete this project.

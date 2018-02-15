@@ -1,0 +1,47 @@
+# Reads numbers x and y and prints their GCD.
+
+# Read r1 as x
+0 read r1
+
+# Read r2 as y
+1 read r2
+
+# Call function that calculates the GCD of x and y
+2 calln r14 5
+
+# Write r3
+3 write r3
+
+# Halt
+4 halt
+
+# Function that calculates the GCD of two numbers x and y iteratively 
+# using Euclid's algorithm.
+
+# [A] Tests if x divisible by y, calculates remainder
+5 mod r3 r1 r2
+
+# If yes, then jump to line 11
+6 jeqzn r3 11
+
+# [Else]
+# Assign r1 to r4 to keep r1's true value
+7 copy r4 r1
+
+# Assign r2 to r1
+8 copy r1 r2
+
+# Assign remainder between r4 and r2 to r2
+9 mod r2 r4 r2
+
+# Jump to [A]
+10 jumpn 5
+
+# [Yes]
+# Stores r2 in r3
+11 copy r3 r2
+
+# Return to caller
+12 jumpr r14
+
+

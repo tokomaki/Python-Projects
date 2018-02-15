@@ -1,0 +1,39 @@
+1. Hours to complete the project: 48 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Ring Buffer): I went about doing this by watching the
+   screencast and using the pdf. At first, I had to think a lot about
+   understanding the concepts and writing the defitinions correctly.
+   I made a mistake with the ordering of how I assigned parts of the list
+   in the enqueue and dequeue definitions. However, I eventually got things
+   to work.
+
+   Problem 2 (Guitar String): Similarly, I used the screencast and the pdf
+   to assist me here. I initially made the mistake of writing some parts of
+   it internally, when I was supposed to only be using implementations from
+   ring_buffer.py. After some debugging and utilizing the ring_buffer API 
+   correctly, I was all set.
+
+   Problem 3 (Interactive Guitar Player): Once again, I paid attention to the
+   pdf and the screencast. However, I struggled big time with this part of 
+   the project because it took me some time to understand what it meant to 
+   create a list of guitar_string objects. Unfortunately, I am out of time
+   to fix whatever is left for me to fix in this part of the program.
+
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Donald              Student     Helped clarify
+   Asa                 Student     Pointed out mistakes
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   For what I gained from this project, I enjoyed it. I feel bad that I failed
+   to complete the projects completely.

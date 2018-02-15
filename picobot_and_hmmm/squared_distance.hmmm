@@ -1,0 +1,46 @@
+# Reads numbers x1, y1, x2, y2 representing the coordinates of two points on 
+# a plane and prints the approximate squared Euclidean distance, calculated as 
+# (x1 - x2)^2 + (y1 - y2)^2.
+
+
+# Read a number x1 into r1
+0 read r1
+
+# Read a number y1 into r2
+1 read r2
+
+# Read a number x2 into r3
+2 read r3
+
+# Read a number y2 into r4
+3 read r4
+
+# Call function that calculates the squared Euclidean distance
+4 calln r14 7
+
+# Write r9
+5 write r9
+
+# Halt
+6 halt
+
+
+# Function that calculates the squared Euclidean distance.
+
+# Compute x1 - x2 into r5
+7 sub r5 r1 r3
+
+# Compute y1 - y2 into r6
+8 sub r6 r2 r4
+
+# Compute (x1 - x2)^2 into r7
+9 mul r7 r5 r5
+
+# Compute (y1 - y2)^2 into r8
+10 mul r8 r6 r6
+
+# Compute (x1 - x2)^2 + (y1 - y2)^2 into r9
+11 add r9 r7 r8
+
+# Return to caller
+12 jumpr r14

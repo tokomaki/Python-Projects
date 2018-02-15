@@ -1,0 +1,44 @@
+1. Hours to complete the project: 18 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Markov Model Data Type): To go about this, I used the pdf and
+   online posts on Piazza to assist me. Another way that helped me figure out
+   and understand problems here was the use of the Python shell in the
+   terminal to play around and experiment with dictionary manipulation. Once
+   I knew the code was correct, I simply implemented it in each definition.
+   Out of all the methods in the API, replace_unknown was the hardest of them
+   all because it took the most thinking for me. One Piazza post and a visit
+   to my professor was helpful to me in figuring this particular method out.
+
+   Problem 2 (Random Text Generator): Once again, I used the pdf and just 
+   followed the comments to direct me. It was pretty straightforward, so I
+   didn't really have any problems.
+
+   Problem 3 (Noisy Message Decoder): Like Problem 2, I used the pdf and was
+   fine implementing the code here. It was pretty straightforward to follow
+   the comments, and it was only slightly different from Problem 2.
+
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Swami Iyer         Professor    Office hour explanation
+   Donald             Student      Explaining ideas and clarifying concepts
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   All in all, I feel like this project was one of the most challenging
+   projects so far; about as difficult as the guitar hero project in the sense
+   that it took a lot of thinking, but then again, that's what computer
+   science does. I was initially scared from what I saw in the pdf, but as I
+   began to understand it better, it wasn't so bad. Using important posts on
+   Piazza was and playing around on the Python shell were most helpful for me.
+   Finally, I'd like to say that this is one of the most rewarding projects,
+   and I look forward to working on the next and final project of the
+   semester.

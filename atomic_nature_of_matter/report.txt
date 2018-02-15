@@ -1,0 +1,42 @@
+1. Hours to complete the project: 36 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Particle Identification): To go about this problem, I followed the
+   the directions on the pdf and the comments written in to guide in the files.
+   First, when it came to blob.py, I didn't know how to go about the 
+   constructor, I realized that all the values had to be for the instance 
+   variables were 0, 0.0, and 0.0 respectively. I then used a helpful Piazza 
+   post to guide me when implementing the add method. For blob_finder.py, I
+   intially struggled, but when I saw my professor during his office hour,
+   he gave me some reminders and things made sense.
+
+   Problem 2 (Particle Tracking): Once again, I used the pdf and the guiding
+   comment in the file to guide me. At first, I struggled with thinking about
+   how to go about getting the distance between each bead in the previous
+   frame and all the beads in the next frame. I also had to switch my bead list
+   order to make the output fully correct.
+
+   Problem 3 (Data Analysis): Finally, avogadro.py was pretty straightforward
+   for the most part. But I needed to make sure that everything was clear and
+   readable since my output for it was very close to what it needed to be. So,
+   I divided each of the three calculations into their own definitions.
+
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Swami Iyer         Professor    Office Hour Assistance
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I thought this project made me think a lot, particularly about object 
+   oriented programming. I think it was good way to reinforce my understanding
+   of it by appyling it here in this project. It was very rewarding after all
+   the hard work debugging and figuring out how to solve the problems. I look
+   forward to the last project of the semester.

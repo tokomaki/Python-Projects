@@ -1,0 +1,74 @@
+1. Hours to complete the project: 5 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Wind Chill): I approached this problem by following the
+   directions on the pdf and just converting the ideas into code.
+   I didn't really face any issues when writing this program.
+
+   Problem 2 (Body Mass Index): Once again, I took the calculation
+   and converted it into code, and I didn't have any issues. When writing the
+   output, I calculated the final result in the parameters of the writeln
+   statement.
+
+   Problem 3 (Polar Coordinates): Like the previous programs, I understood
+   what I needed to do as far as performing the calculation. However, when
+   writing the arctangent function, I had to type python in the terminal
+   and went to the math module to find how to code it.
+
+   Problem 4 (Order Check): Writing this program was very simple. Initially,
+   when writing the programs for the project, I didn't use the screencast.
+   I eventually noticed the screencast and saw it had important information,
+   which included not using 'if' or other conditional flow statements. I re-
+   wrote the program to fit the instructions.
+
+   Problem 5 (Day of the Week): Writing this program was pretty straight-
+   forward. When doing the calculations, I didn't have any issues writing
+   this program at all. I was just sure to write comments and write a clean,
+   readable program.
+
+   Problem 6 (Mercator Projection): I followed the directions and wrote the
+   program accordingly. I remembered to keep in mind the style guide and 
+   used pep8 to check my work. I did have to adjust my indentation a little,
+   but that was it as far as concerns here go.
+ 
+   Problem 7 (Great Circle): Like the other programs, writing this program
+   was pretty clear. However, I at first felt it was hard to read and messy
+   because I was incorporating all the math functions together. To clean up,
+   I converted all the float-converted inputs to radians at the top.
+
+   Problem 8 (Three Sort): I initially wrote this program using control-flow
+   statements. Even with them in use, I still had to think a lot. However, I
+   watched the screencast and learned that I had to use max() and min(), so I
+   re-wrote the program using them. I found the medium value by finding the
+   smallest of the largest 2 numbers.
+
+   Problem 9 (Random Integer): I didn't have any issue writing this program.
+   All I had to do was important the random module and I was all set.
+
+   Problem 10 (Three Dice): When writing this program, I remembered that the
+   randrange() function of the random module doesn't include the end-number.
+   So to get a random integer from 1 to 6, I used 1 and 7 as parameters.
+
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I really enjoyed doing this project. It feels so much better to be
+   programming in Python rather than in tedious HMMM. Throughout the
+   project, I always placed my best efforts into writing as cleanly, readably,
+   and efficiently as possible. I used pep8 to ensure I was fitting the style
+   requirements, though I understand that we shouldn't follow it too strictly
+   since there may be times when using it will make the program less readable.
+   However, in this case, I don't believe following pep8 made any of these
+   programs less readable. As a Computer Science major, I enjoy working hands
+   on with coding and learning from it. I look forward to learning more.

@@ -1,0 +1,34 @@
+1. Hours to complete the project: 12 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Tour Data Type): To go about solving this problem, I just looked
+   at the pdf and went online to Piazza for reference. Issues I encountered were
+   implementing the distance method and the insert methods. I eventually figured
+   them out.
+
+   Problem 2 (Nearest Neighbor Heuristic): This program was pretty straight up
+   and clear. THe only issue I had was with the drawing, but all I had to do was
+   move something out of the while loop and fix some order.
+
+   Problem 3 (Smallest Increase Heuristic): This file was also pretty straight
+   forward. All I had to do was take what I used in the Nearest Neigbor
+   Heuristic and modify it to suit this file.
+
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   Overall, I thought this project pretty cool. I'm satisfied and feel rewarded
+   for working on this project. It's interesting to know that this is how 
+   those who work in logistics have to think when it comes to finding a more
+   optimal way of delivering.
